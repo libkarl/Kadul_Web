@@ -1,3 +1,5 @@
+
+
 .typewriter h1 {
     color: rgb(8, 7, 7);
     font-family: monospace;
@@ -22,3 +24,5 @@
     from, to { border-color: transparent }
     50% { border-color: orange }
   }
+
+  

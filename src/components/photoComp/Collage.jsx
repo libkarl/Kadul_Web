@@ -5,7 +5,7 @@ import "./collage.css"
 class Collage extends Component {
     render() {
         return(
-            <section class="py-48 bg-white flex flex-col justify-center">
+            <section id="collage" class=" bg-white flex flex-col justify-center width: 70vh">
                 <div class="grid grid-cols-2 gap-10 max-w-6xl mx-auto">
                 <div class="-mt-20 flex justify-end">
                     <img class="w-2/3 h-2/3 object-cover rounded-lg overflow-hidden" src="https://images.unsplash.com/photo-1616486788371-62d930495c44?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1160&q=80" />
@@ -21,14 +21,12 @@ class Collage extends Component {
                 </div>
                 <div class="-translate-y-96 transform ml-28 -mr-28 p-16 shadow-xl rounded-xl overflow-hidden bg-white">
                     <div class="space-y-4">
-                    <p class="text-5xl font-bold text-black tracking-tight">
-                        In unprecedented times, health and safety remain the priority.
-                    </p>
-                    <p class="text-xl text-black">
-                        From the moment the threat of COVID‑19 emerged, Apple took action. Working closely with medical experts and our suppliers, we put the health and safety of the people in our supply chain first. We implemented standard measures like
-                        personal protective equipment, deep‑cleaning protocols and health screenings. But we went much further, re‑imagining entire factory layouts and processes to ensure that people could practise proper social distancing. We continue to
-                        support our suppliers around the world and have shared our best practices and lessons learned with partners across the industry.
-                    </p>
+                        <p class="text-5xl font-bold text-black tracking-tight">
+                            Available services
+                        </p>
+                        <p class="text-xl text-black">
+                        Apart from innovative products, we also offer investment service and consulting. Thanks to the experience gained in the international environment, we can propose a wide range of cooperation.
+                        </p>
                     </div>
                     <div class="grid grid-cols-2 gap-6 border-t border-b border-gray-200 my-12 py-8">
                     <div>
