@@ -41,8 +41,8 @@ const data = [
 
 const Testimonials = () => {
   return (
-    <section id ="testimonials" class="mb-6 drop-shadow-xl">
-      <h5 class="text-center text-3xl text-red-600 mb-4">Review from clients</h5>
+    <section id ="testimonials" class="mb-6 drop-shadow-xl scale-125">
+      <h5 class="text-center text-3xl  text-red-600 mb-4">Review from clients</h5>
         <div class="drop-shadow-xl">
         <Swiper className="container testimonials__container"
       // install Swiper modules

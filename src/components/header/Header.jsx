@@ -21,11 +21,11 @@ class Header extends Component {
                             <div class="block">
                                 <div class=" flex items-center ">
                                     <div class="typewriter">
-                                        <h1 class="font-semibold arial text-2xl mr-10">Innovative solutions in construction industry.</h1>
+                                        <h1 class="font-semibold arial text-2xl mr-10 ">Innovative solutions in construction industry.</h1>
                                     </div>
                                 </div>
                             </div>
-                            
+                            <a class="css_button mt-12 ml-14" href="#"><span class="ef"></span>Back-></a>
                             
                         </div>
                     </div>

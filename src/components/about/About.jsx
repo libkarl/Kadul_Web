@@ -10,8 +10,8 @@ const about = () => {
     <section id="about" class="prose mt-10 ml-6 mr-6">
       <div class="container about__container">
         <div class="about__me">
-          <div class="about__me-image ">
-            <img class="mb-36 ml-10" src={ME} alt = "About Image" />
+          <div class="about__me-image place-self-center">
+            <img class="img_me" src={ME} alt = "About Image" />
           </div>
         </div>
 

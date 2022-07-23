@@ -16,7 +16,7 @@ function App() {
       <Header />
       <Navbar />
       <About />
-      <Collage />
+      
       <Testimonials/>
       <Contact />
       <Footer />
