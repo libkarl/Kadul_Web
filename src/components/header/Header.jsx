@@ -5,7 +5,7 @@ import {BiBuildingHouse} from "react-icons/bi"
 class Header extends Component {
     render() {
         return(
-            <div class="bg-slate-800 mt-12" id="home">
+            <div class="bg-slate-800 mt-20 mb-20 container mx-auto " id="home">
                 <div class="bg-white dark:bg-gray-800  ">
                     <div class="max-w-7xl ml-24">
                         <div class="flex items-center justify-between h-16">
@@ -20,7 +20,7 @@ class Header extends Component {
                             </div>
                             <div class="block">
                                 <div class=" flex items-center ">
-                                    <div class="typewriter">
+                                    <div class="typewriter container">
                                         <h1 class="font-semibold arial text-2xl mr-10 ">Innovative solutions in construction industry.</h1>
                                     </div>
                                 </div>

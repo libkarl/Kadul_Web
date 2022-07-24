@@ -41,7 +41,7 @@ const data = [
 
 const Testimonials = () => {
   return (
-    <section id ="testimonials" class="mb-6 drop-shadow-xl scale-125">
+    <section id ="testimonials" class="mb-20 drop-shadow-xl ">
       <h5 class="text-center text-3xl  text-red-600 mb-4">Review from clients</h5>
         <div class="drop-shadow-xl">
         <Swiper className="container testimonials__container"
@@ -55,10 +55,10 @@ const Testimonials = () => {
             return(
               <SwiperSlide key={index} className="testimonial">
               <div className="client__avatar">
-                <img src={avatar}/>
+                <img src={avatar} />
               </div>
-              <h5 class="text-2xl" className="client__name">{name}</h5>
-              <small class="text-large" className="client__review">{review}</small>  
+              <h5 class="text-2xl " className="client__name">{name}</h5>
+              <small class="text-xl text-stone-600" className="client__review">{review}</small>  
               </SwiperSlide>
             )
           }) 

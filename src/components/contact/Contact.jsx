@@ -5,11 +5,12 @@ import "./contact.css"
 class Contact extends Component {
     render() {
         return(
-            <div class="flex h-95 mb-10 mt-2 items-center justify-start bg-white" id="contact">
+            <div class="flex h-95 mb-10  items-center justify-start bg-white" id="contact">
                 <div class="mx-auto w-full max-w-lg">
-                    <h1 class="text-4xl font-medium">Contact us</h1>
-                    <p class="mt-3">Email us at help@domain.com or message us here:</p>
-
+                    <h1 class="text-4xl font-medium text-red-600 text-center">Get In Touch</h1>
+                    <div class="container">
+                        <p class="mt-3 text-center">Email us at contact@kadul.com or message us here:</p>
+                    </div>
                     <form action="https://api.web3forms.com/submit" class="mt-10">
 
                     <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE" /> 
@@ -27,7 +28,8 @@ class Contact extends Component {
                         <label class="absolute top-3 -z-10 origin-[0] -translate-y-6 scale-75 transform text-sm text-gray-500 duration-300 peer-placeholder-shown:translate-y-0 peer-placeholder-shown:scale-100 peer-focus:left-0 peer-focus:-translate-y-6 peer-focus:scale-75 peer-focus:text-blue-600 peer-focus:dark:text-blue-500">Your message</label>
                         </div>
                     </div>
-                    <button type="submit" class="mt-5 rounded-md bg-black px-10 py-2 text-white">Send Message</button>
+                    <button type="submit" class="mt-5 rounded-md border-2 border-black bg-black px-10 py-2 text-white
+                     hover:bg-white hover:text-black  hover:border-2 hover:border-black">Send Message</button>
                     </form>
                 </div>
             </div>

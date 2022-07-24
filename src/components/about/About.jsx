@@ -7,10 +7,10 @@ import {GiCrane} from "react-icons/gi"
 
 const about = () => {
   return (
-    <section id="about" class="prose mt-10 ml-6 mr-6">
+    <section id="about" class="prose mt-10 ml-20 mr-20">
       <div class="container about__container">
         <div class="about__me">
-          <div class="about__me-image place-self-center">
+          <div class="about__me-image ml-20">
             <img class="img_me" src={ME} alt = "About Image" />
           </div>
         </div>
