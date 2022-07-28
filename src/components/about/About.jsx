@@ -5,10 +5,10 @@ import {FiAward} from "react-icons/fi"
 import {FiUsers} from "react-icons/fi"
 import {GiCrane} from "react-icons/gi"
 
-const about = () => {
+const About = () => {
   return (
-    <section id="about" class="prose mt-10 ml-20 mr-20">
-      <div class="container about__container">
+    <section id="about" class="prose mt-10 mx-auto ">
+      <div class="container about__container ">
         <div class="about__me">
           <div class="about__me-image ml-20">
             <img class="img_me" src={ME} alt = "About Image" />
@@ -34,18 +34,18 @@ const about = () => {
             </article>
           </div>
 
-          <p>
+          <p class="mb-6 mt-6 w-11/12">
           
           Modern construction industry creates new needs and challenges. Eco-friendly style, best possible workmanship and promptness of service are bread and butter for entrepreneurs and builders.
           Knowing these requirements, Kadul company offers innovative solutions, which allow to save time and money, and what is more – they are eco-friendly.
           </p>
 
           <a href="#contact" class="mt-5 rounded-md bg-black px-10 py-2 text-white
-           hover:bg-white hover:text-black hover:font-semibold hover:border-2 hover:border-black" >Let's Talk</a>
+           hover:bg-white hover:text-black hover:font-semibold hover:border-2 hover:border-black mb-5" >Let's Talk</a>
         </div>  
       </div>
     </section>
   )
 }
 
-export default about
+export default About

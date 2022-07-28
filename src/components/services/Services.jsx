@@ -9,14 +9,14 @@ class Services extends Component {
         return(
             
             <div class=" bg-white mb-14" id="possibilities">
-                <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 ">
                     <div class="lg:text-center">
-                    <h2 class="text-3xl text-red-600 font-semibold tracking-wide  ">Services</h2>
+                    <h2 class="text-3xl text-red-600 font-semibold tracking-wide text-center">Services</h2>
                     
-                    <p class="mt-4 max-w-2xl text-xl text-black lg:mx-auto">Apart from innovative products, we also offer investment service and consulting. Thanks to the experience gained in the international environment, we can propose a wide range of cooperation:</p>
+                    <p class="mt-4 p-6 mx-auto w-8/12 text-center text-xl text-black ">Apart from innovative products, we also offer investment service and consulting. Thanks to the experience gained in the international environment, we can propose a wide range of cooperation:</p>
                     </div>
 
-                    <div class="mt-10">
+                    <div class="mt-10 w-10/12 mx-auto">
                     <dl class="space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10">
                         <div class="relative">
                         <dt>

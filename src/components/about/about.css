@@ -2,10 +2,13 @@
     display: grid;
     grid-template-columns: 35% 50%;
     gap: 15%;
+    margin: auto;
+    
+    margin-bottom: 2rem;
   }
   
   .about__me {
-    margin-left: 2rem;
+    margin-left: 8rem;
     width: 100%;
     aspect-ratio: 1/1;
     border-radius: 2rem;
@@ -68,16 +71,12 @@
       color: var(--color-light);
   }
   
-  .about__content p {
-    
-    margin: 2rem 0 2.6rem;
-    color: var(--color-light);
-  }
+  
   
   .about__content{
     margin-right: 4rem;
     margin-left: 4rem;
-    height: 25vh;
+    height: fit-content;
   }
 
   /* ============== Meadia Queries ( tablety ) ========= */
@@ -85,7 +84,7 @@
      .about__container {
       grid-template-columns: 1fr;
       gap: 0;
-      margin-bottom: 12rem;
+      
      }
   
      .about__me{
@@ -122,4 +121,20 @@
     .img_me{
         margin-top: 10rem;
       }
+  }
+
+  @media screen and (min-width: 1400px) {
+    .about__container {
+        max-height: 30vh;
+    }
+  }
+  @media screen and (min-width: 1600px) {
+    .about__container {
+        max-height: 30vh;
+    }
+  }
+  @media screen and (min-width: 1900px) {
+    .about__container {
+        max-height: 30vh;
+    }
   }

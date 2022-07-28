@@ -1,4 +1,7 @@
 
+.header {
+    width: 110vh;
+}
 
 .typewriter h1 {
     color: rgb(8, 7, 7);
@@ -22,7 +25,7 @@
   /* The typewriter cursor effect */
   @keyframes blink-caret {
     from, to { border-color: transparent }
-    50% { border-color: orange }
+    50% { border-color: rgb(3, 2, 0) }
   }
 
   .css_button
@@ -40,6 +43,7 @@
       font-size: 20px;
       font-family: verdana;
       letter-spacing: 4px;
+      margin-left: 50px;
   /*    border-radius: 20px; */
   }
   
@@ -86,3 +90,20 @@
       width: calc( 180px/2 );
       height: calc( 50px/2 )
   }
+
+    /* ============== Meadia Queries ( tablety ) ========= */
+    @media screen and (max-width: 1024px){
+        .typewriter h1 {
+            font-size: large;
+            display: table-cell;
+            word-wrap: break-word;
+        }
+     }
+     
+     /* ============== Meadia Queries ( mobil ) ========= */
+     @media screen and (max-width: 600px){
+        .typewriter h1 {
+            font-size: large;
+            word-wrap:break-word
+        }
+     }
