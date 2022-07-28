@@ -41,10 +41,10 @@ const data = [
 
 const Testimonials = () => {
   return (
-    <section id ="testimonials" class="mb-20 drop-shadow-xl ">
+    <section id ="testimonials" class="mb-20 drop-shadow-xl">
       <h5 class="text-center text-3xl  text-red-600 mb-4">Review from clients</h5>
         <div class="drop-shadow-xl">
-        <Swiper className="container testimonials__container scale-120"
+        <Swiper className="container testimonials__container "
       // install Swiper modules
       modules={[Pagination]}
       spaceBetween={40}
@@ -57,8 +57,8 @@ const Testimonials = () => {
               <div className="client__avatar">
                 <img src={avatar} />
               </div>
-              <h5 class="text-2xl " className="client__name">{name}</h5>
-              <small class="text-xl text-stone-600" className="client__review">{review}</small>  
+              <h5 class="text-2xl scale-120" className="client__name">{name}</h5>
+              <small class="text-xl text-stone-600 scale-120" className="client__review">{review}</small>  
               </SwiperSlide>
             )
           }) 

@@ -5,7 +5,7 @@ import CompanyLogo from "../../assets/kadul-logo.jpg"
 class Footer extends Component {
     render() {
         return(
-            <footer class="p-2 bg-white rounded-lg shadow md:px-6 md:py-8 dark:bg-gray-900">
+            <footer class="p-2 bg-white rounded-lg shadow md:px-6 md:py-8">
                 <div class="sm:flex sm:items-center sm:justify-between">
                     <a href="https://www.kadul.com/index.php/en/home-2/" class="flex items-center mb-4 sm:mb-0" target="_blank">
                         <img src={CompanyLogo} class="mr-3 h-12 " alt="Company Logo" />

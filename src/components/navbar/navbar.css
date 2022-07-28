@@ -1,5 +1,6 @@
 /*  styl pro nav bar */
 nav {
+    margin-bottom: 7vh;
     background: rgba(0, 0, 0, 0.3);
     width: max-content;
     display: block;

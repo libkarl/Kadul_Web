@@ -26,7 +26,7 @@ class Header extends Component {
                                 </div>
                             </div>
                             <div class=" flex items-center ">
-                                <a class="css_button mt-12" href="#"><span class="ef"></span>Back-></a>
+                                <a class="anime_bt mt-12" href="#"><span class="ef"></span>Back-></a>
                             </div>
                             
                             

@@ -12,16 +12,16 @@ class Collage extends Component {
                 <div class="mx-auto text-center p-6 w-11/12">
                     <h1 class="gallery_header  text-red-600">Project gallery <span> solved problem presentation</span></h1>
                 </div>
-                <div class="container_collage mx-auto p-6" id='gallery'>
+                <div class="container_collage mx-auto p-12" id='gallery'>
                     <div class="gallery">
 
                         <div class="gallery-item rounded-3xl ">
                             <div  >
-                                <div class=" p-8 py-10 px-10 overflow-hidden h-full w-full bg-white  duration-200 hover:scale-105 hover:shadow-xl ">
+                                <div class=" py-10 px-10 overflow-hidden h-full w-full bg-white  duration-200 hover:scale-105 hover:shadow-xl ">
                                     <img src={Cozy_homes} alt="plant" class="h-auto w-full rounded-2xl" />
                                     <div class="p-6">
                                     <p class="text-medium mb-5 text-gray-700">Well, aren't you going up to the lake tonight, you've been planning it for two weeks.</p>
-                                    <button class="w-60 rounded-md py-3  bg-black text-white border-2 hover:bg-white hover:text-black hover:shadow-md duration-75 hover:border-2 border-black">See More</button>
+                                    <button class="w-44 rounded-md py-3  bg-black text-white border-2 hover:bg-white hover:text-black hover:shadow-md duration-75 hover:border-2 border-black">See More</button>
                                     </div>
                                 </div>
                             </div>
@@ -29,11 +29,11 @@ class Collage extends Component {
 
                         <div class="gallery-item rounded-3xl ">
                             <div  >
-                                <div class="p-8 py-10 px-10 overflow-hidden h-full w-full bg-white  duration-200 hover:scale-105 ">
+                                <div class="py-10 px-10 overflow-hidden h-full w-full bg-white  duration-200 hover:scale-105 ">
                                     <img src={Residence} alt="plant" class="h-auto w-full rounded-2xl" />
                                     <div class="p-6">
                                     <p class="text-medium mb-5 text-gray-700">Well, aren't you going up to the lake tonight, you've been planning it for two weeks.</p>
-                                    <button class="w-60 rounded-md py-3  bg-black text-white border-2 hover:bg-white hover:text-black hover:shadow-md duration-75 hover:border-2 border-black">See More</button>
+                                    <button class="w-44 rounded-md py-3  bg-black text-white border-2 hover:bg-white hover:text-black hover:shadow-md duration-75 hover:border-2 border-black">See More</button>
                                     </div>
                                 </div>
                             </div>
@@ -41,11 +41,11 @@ class Collage extends Component {
 
                         <div class="gallery-item rounded-3xl ">
                             <div  >
-                                <div class=" p-8 py-10 px-10 overflow-hidden h-full bg-white  duration-200 hover:scale-105 ">
+                                <div class=" py-10 px-10 overflow-hidden h-full bg-white  duration-200 hover:scale-105 ">
                                     <img src={Architect} alt="plant" class="h-110 w-full rounded-2xl" />
                                     <div class="p-6">
                                     <p class="text-medium mb-5 text-gray-700">Well, aren't you going up to the lake tonight, you've been planning it for two weeks.</p>
-                                    <button class="w-60 rounded-md py-3  bg-black text-white border-2 hover:bg-white hover:text-black hover:shadow-md duration-75 hover:border-2 border-black">See More</button>
+                                    <button class="w-44 rounded-md py-3  bg-black text-white border-2 hover:bg-white hover:text-black hover:shadow-md duration-75 hover:border-2 border-black">See More</button>
                                     </div>
                                 </div>
                             </div>
@@ -53,11 +53,11 @@ class Collage extends Component {
 
                         <div class="gallery-item rounded-3xl ">
                             <div  >
-                                <div class=" p-8 py-10 px-10 overflow-hidden h-full bg-white duration-200 hover:scale-105 hover:shadow-xl">
+                                <div class=" py-10 px-10 overflow-hidden h-full bg-white duration-200 hover:scale-105 hover:shadow-xl">
                                     <img src={Arch_tec} alt="plant" class="h-auto w-full rounded-2xl" />
                                     <div class="p-6">
                                     <p class="text-medium mb-5 text-gray-700">Well, aren't you going up to the lake tonight, you've been planning it for two weeks.</p>
-                                    <button class="w-60 rounded-md py-3  bg-black text-white border-2 hover:bg-white hover:text-black hover:shadow-md duration-75 hover:border-2 border-black">See More</button>
+                                    <button class="w-44 rounded-md py-3  bg-black text-white border-2 hover:bg-white hover:text-black hover:shadow-md duration-75 hover:border-2 border-black">See More</button>
                                     </div>
                                 </div>
                             </div>

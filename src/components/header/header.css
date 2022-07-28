@@ -31,10 +31,10 @@
     50% { border-color: rgb(3, 2, 0) }
   }
 
-  .css_button
+  .anime_bt
   {
       
-      transform: translate(-50%, -50%);
+      transform: translate(-25%, -50%);
       width: 180px;
       height: 50px;
       background: #ffffff;
@@ -50,8 +50,8 @@
   /*    border-radius: 20px; */
   }
   
-  .css_button:before,
-  .css_button:after,
+  .anime_bt:before,
+  .anime_bt:after,
   .ef:before,
   .ef:after
   {
@@ -64,12 +64,12 @@
       mix-blend-mode: hue;
   }
   
-  .css_button:before
+  .anime_bt:before
   {
       top: -2px;
       left: -2px
   }
-  .css_button:after
+  .anime_bt:after
   {
       top: -2px;
       right: -2px;
@@ -85,10 +85,10 @@
       right: -2px
   }
   
-  .css_button:hover:before,
-  .css_button:hover:after,
-  .css_button:hover span:before,
-  .css_button:hover span:after
+  .anime_bt:hover:before,
+  .anime_bt:hover:after,
+  .anime_bt:hover span:before,
+  .anime_bt:hover span:after
   {
       width: calc( 180px/2 );
       height: calc( 50px/2 )

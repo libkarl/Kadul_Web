@@ -69,7 +69,7 @@ Remove or comment-out the code block below to see how the browser will fall-back
 @supports (display: grid) {
 	.gallery {
 		display: grid;
-		grid-template-columns: repeat(auto-fit, minmax(24rem, 1fr));
+		grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
 		grid-gap: 2rem;
 	}
 
