@@ -9,10 +9,10 @@ class Collage extends Component {
     render() {
         return(
             <>
-                <div class="mx-auto text-center p-6 w-11/12">
+                <div class="mx-auto text-center p-6 w-11/12 container">
                     <h1 class="gallery_header  text-red-600">Project gallery <span> solved problem presentation</span></h1>
                 </div>
-                <div class="container_collage mx-auto p-12" id='gallery'>
+                <div class="collage mx-auto p-12 container" id='gallery'>
                     <div class="gallery">
 
                         <div class="gallery-item rounded-3xl ">
