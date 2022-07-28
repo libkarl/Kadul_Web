@@ -1,9 +1,12 @@
 
 .header {
-    width: 110vh;
+    display: flex;
 }
 
+
+
 .typewriter h1 {
+    
     color: rgb(8, 7, 7);
     font-family: monospace;
     overflow: hidden; /* Ensures the content is not revealed until the animation */
@@ -43,7 +46,7 @@
       font-size: 20px;
       font-family: verdana;
       letter-spacing: 4px;
-      margin-left: 50px;
+     
   /*    border-radius: 20px; */
   }
   
@@ -93,17 +96,31 @@
 
     /* ============== Meadia Queries ( tablety ) ========= */
     @media screen and (max-width: 1024px){
+        .header {
+            flex-direction: row;
+            gap: 2.5rem;
+            
+        }
+        
         .typewriter h1 {
             font-size: large;
-            display: table-cell;
-            word-wrap: break-word;
+            
+            
         }
      }
      
      /* ============== Meadia Queries ( mobil ) ========= */
      @media screen and (max-width: 600px){
+        .header {
+            flex-direction: row;
+            gap: 2.5rem;
+            
+        }
+        
         .typewriter h1 {
             font-size: large;
-            word-wrap:break-word
+            
+            
+            
         }
      }

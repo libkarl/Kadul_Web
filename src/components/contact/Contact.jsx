@@ -5,7 +5,7 @@ import "./contact.css"
 class Contact extends Component {
     render() {
         return(
-            <div class="flex h-95 mb-10  items-center justify-start bg-white" id="contact">
+            <div class="flex h-95 mb-10  items-center justify-start bg-white p-8" id="contact">
                 <div class="mx-auto w-full max-w-lg">
                     <h1 class="text-4xl font-medium text-red-600 text-center">Get In Touch</h1>
                     <div class="container">
