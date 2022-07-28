@@ -25,7 +25,10 @@ body {
    
    
 }
- 
+
+:root {
+   --swiper-theme-color: black;
+}
 
 
 
