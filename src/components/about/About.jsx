@@ -36,7 +36,7 @@ const About = () => {
             </article>
           </div>
 
-          <p class="mb-6 mt-6  mx-auto w-11/12">
+          <p class="mb-6 mt-6  mx-auto ">
           
           Modern construction industry creates new needs and challenges. Eco-friendly style, best possible workmanship and promptness of service are bread and butter for entrepreneurs and builders.
           Knowing these requirements, Kadul company offers innovative solutions, which allow to save time and money, and what is more – they are eco-friendly.

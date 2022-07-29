@@ -53,7 +53,7 @@ const Testimonials = () => {
         {
           data.map(({avatar, name, review}, index) => {
             return(
-              <SwiperSlide key={index} className="testimonial">
+              <SwiperSlide key={index} className="testimonial swiper-button-black">
               <div className="client__avatar">
                 <img src={avatar} />
               </div>

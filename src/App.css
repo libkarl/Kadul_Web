@@ -11,9 +11,11 @@
 
 
 html {
-   scroll-behavior: smooth;
-   min-width: 400px; 
+   scroll-behavior: smooth; 
+   min-width: 380px;
+   
 }
+
 
 ::-webkit-scrollbar {
    display: none;
@@ -26,9 +28,7 @@ body {
    
 }
 
-:root {
-   --swiper-theme-color: black;
-}
+
 
 
 
