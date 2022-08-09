@@ -40,7 +40,7 @@
   }
 }
 
-.anime_bt
+.anime_bt_ln
 {
     
     transform: translate(-25%, -50%);
@@ -57,8 +57,8 @@
 /*    border-radius: 20px; */
 }
 
-.anime_bt:before,
-.anime_bt:after,
+.anime_bt_ln:before,
+.anime_bt_ln:after,
 .ef:before,
 .ef:after
 {
@@ -71,12 +71,12 @@
     mix-blend-mode: hue;
 }
 
-.anime_bt:before
+.anime_bt_ln:before
 {
     top: -2px;
     left: -2px
 }
-.anime_bt:after
+.anime_bt_ln:after
 {
     top: -2px;
     right: -2px;
@@ -92,10 +92,10 @@
     right: -2px
 }
 
-.anime_bt:hover:before,
-.anime_bt:hover:after,
-.anime_bt:hover span:before,
-.anime_bt:hover span:after
+.anime_bt_ln:hover:before,
+.anime_bt_ln:hover:after,
+.anime_bt_ln:hover span:before,
+.anime_bt_ln:hover span:after
 {
     width: calc( 180px/2 );
     height: calc( 50px/2 )

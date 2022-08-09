@@ -36,7 +36,7 @@ const Cards = () => {
                 <div className="py-4 flex justify-around flex-wrap  -mt-5">
                     <button>
                         <div class="flex items-center ml-44">
-                            <Link to='/'class="anime_bt mt-8 -mb-4"><span class="ef"></span>Open-></Link>
+                            <Link to='kadul'class="anime_bt_ln mt-8 -mb-4"><span class="ef"></span>Open-></Link>
                         </div>
                     </button>
                 </div>
@@ -71,7 +71,7 @@ const Cards = () => {
                 <div className="py-4 flex justify-around flex-wrap  -mt-5">
                     <button>
                         <div class="flex items-center ml-44">
-                            <Link to='/'class="anime_bt mt-8 -mb-4"><span class="ef"></span>Open-></Link>
+                            <Link to='kadul'class="anime_bt_ln mt-8 -mb-4"><span class="ef"></span>Open-></Link>
                         </div>
                     </button>
                 </div>
