@@ -78,7 +78,25 @@
           }
       });
 
+      const container = document.querySelector('.split_container')
+      const left = document.querySelector('.left')
+      const right = document.querySelector('.right')
+
+      left.addEventListener('mouseenter',()=> container.classList.add('hover-left'))
+      left.addEventListener('mouseleave',()=> container.classList.remove('hover-left'))
+
+      right.addEventListener('mouseenter',()=> container.classList.add('hover-right'))
+      right.addEventListener('mouseleave',()=> container.classList.remove('hover-right'))
+  </script>
+  <script type="text/javascript" src="vanilla-tilt.js"></script>
+  <script type="text/javascript">
+      VanillaTilt.init(document.querySelector(".move_effect"), {
+      max: 25,
+      speed: 400
+      });
       
+      //It also supports NodeList
+      VanillaTilt.init(document.querySelectorAll(".move_effect"));
   </script>
   
   </body>

@@ -1,6 +1,7 @@
 import React, { Component} from 'react'
 import "./header.css"
 import {BiBuildingHouse} from "react-icons/bi"
+import { Link } from 'react-router-dom'
 
 class Header extends Component {
     render() {
@@ -26,7 +27,7 @@ class Header extends Component {
                                 </div>
                             </div>
                             <div class=" flex items-center ">
-                                <a class="anime_bt mt-12" href="#"><span class="ef"></span>Back-></a>
+                                <Link to='/'class="anime_bt mt-12"><span class="ef"></span>Back-></Link>
                             </div>
                             
                             
