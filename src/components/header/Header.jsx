@@ -27,7 +27,7 @@ class Header extends Component {
                                 </div>
                             </div>
                             <div class=" flex items-center ">
-                                <Link to='/'class="anime_bt mt-12"><span class="ef"></span>Back-></Link>
+                                <Link to='/'class="anime_bt mt-12"><span class="ef"></span>Back-{'>'}</Link>
                             </div>
                             
                             

@@ -10,12 +10,7 @@ const Main = function() {
       <div className="bg">
         <MainHeader/>
         <Cards/>
-      </div>
-        
-        
-        
-       
-        
+      </div>    
       </>
     )
   }

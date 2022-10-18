@@ -1,0 +1,323 @@
+@import url("https://fonts.googleapis.com/css?family=Crimson+Text|Playfair+Display&display=swap");
+
+#info {
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  line-height: normal !important;
+}
+
+.triple-pane {
+  width: 1000px;
+  height: calc(1000px * (9 / 16));
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  margin-top: 10rem;
+}
+
+.pane img {
+  width: 100%;
+  display: block;
+}
+
+.pane-left {
+  width: 35%;
+  z-index: 2;
+}
+
+.pane-mid {
+  width: 30%;
+  height: 100%;
+  -webkit-box-shadow: -5px -5px 10px 0px rgba(102, 102, 102, 0.7);
+  -moz-box-shadow: -5px -5px 10px 0px rgba(102, 102, 102, 0.7);
+  box-shadow: -5px -5px 10px 0px rgba(102, 102, 102, 0.7);
+  z-index: 1;
+}
+
+.pane-right {
+  width: 35%;
+}
+
+.pane-content {
+  height: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.pane-content > * {
+  margin-top: 0;
+}
+
+.pane-content h1 {
+  font-family: "Playfair Display", serif;
+  margin-bottom: 0.1em;
+  font-weight: normal;
+  letter-spacing: normal;
+  text-transform: none;
+}
+
+.pane-content p {
+  text-align: justify;
+  font-family: "Crimson Text", serif;
+  margin-bottom: 0.5em;
+}
+
+.content-button {
+  border: 1px solid black;
+  padding: 4px;
+  font-family: "Playfair Display", serif;
+}
+
+.mobile-pane {
+  width: 90%;
+  margin: auto;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.mobile-pane img {
+  width: 100%;
+  display: block;
+  position: relative;
+}
+
+.shadow-wrap {
+  width: 90%;
+  margin: auto;
+  margin-top: -50px;
+  -webkit-box-shadow: -5px -5px 10px 0px rgba(102, 102, 102, 0.7);
+  -moz-box-shadow: -5px -5px 10px 0px rgba(102, 102, 102, 0.7);
+  box-shadow: -5px -5px 10px 0px rgba(102, 102, 102, 0.7);
+}
+
+.mobile-content {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 3vw;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  background: white;
+  position: relative;
+}
+
+.mobile-content > * {
+  margin-top: 0;
+}
+
+.mobile-content h1 {
+  font-size: 3.8vw;
+  font-family: "Playfair Display", serif;
+  margin-bottom: 10px;
+  font-weight: normal;
+  letter-spacing: normal;
+  text-transform: none;
+}
+
+.mobile-content p {
+  font-size: 2.5vw;
+  font-family: "Crimson Text", serif;
+  margin-bottom: 0.5em;
+  text-align: justify;
+}
+
+.mobile-button {
+  padding: 5px;
+  font-family: "Playfair Display", serif;
+  font-size: 25px;
+  border: 1px solid black;
+  width: 7rem;
+  cursor: pointer;
+  user-select: none;
+  margin-top: 10px;
+}
+
+.anime_bt {
+  transform: translate(-25%, -50%);
+  width: 180px;
+  height: 50px;
+  margin-left: 55px;
+  margin-top: 25px;
+  background: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 50px;
+  color: rgb(0, 0, 0);
+  font-size: 1.5rem;
+  font-family: verdana;
+  letter-spacing: 4px;
+
+  /*    border-radius: 20px; */
+}
+
+.anime_bt:before,
+.anime_bt:after,
+.ef:before,
+.ef:after {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background: rgb(0, 0, 0);
+  transition: 1s;
+  mix-blend-mode: hue;
+}
+
+.anime_bt:before {
+  top: -2px;
+  left: -2px;
+}
+.anime_bt:after {
+  top: -2px;
+  right: -2px;
+}
+.ef:before {
+  bottom: -2px;
+  left: -2px;
+}
+.ef:after {
+  bottom: -2px;
+  right: -2px;
+}
+
+.anime_bt:hover:before,
+.anime_bt:hover:after,
+.anime_bt:hover span:before,
+.anime_bt:hover span:after {
+  width: calc(180px / 2);
+  height: calc(50px / 2);
+}
+/* Extra small devices (phones, 600px and down) */
+/* @media only screen and (max-width: 600px) {
+	...;
+} */
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 768px) {
+  #info .triple-pane {
+    display: none;
+  }
+
+  #info .mobile-pane {
+    display: block;
+  }
+
+  #info .anime_bt {
+               scale: 70%;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  #info .triple-pane {
+    width: 750px;
+    height: calc(750px * (9 / 16));
+    display: flex;
+  }
+
+  #info .mobile-pane {
+    display: none;
+  }
+
+  .pane-content {
+    padding: 10px;
+  }
+
+  .pane-content h1 {
+    font-size: 18px;
+  }
+
+  .pane-content p {
+    font-size: 11px;
+    line-height: normal !important;
+  }
+
+  .content-button {
+    font-size: 12px;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  #info .triple-pane {
+    width: 900px;
+    height: calc(900px * (9 / 16));
+  }
+
+  .pane-content {
+    padding: 20px;
+  }
+
+  .pane-content h1 {
+    font-size: 22px;
+  }
+
+  .pane-content p {
+    font-size: 12px;
+    line-height: normal !important;
+  }
+
+  .content-button {
+    font-size: 14px;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  #info .triple-pane {
+    width: 1100px;
+    height: calc(1100px * (9 / 16));
+  }
+
+  .pane-content {
+    padding: 25px;
+  }
+
+  .pane-content h1 {
+    font-size: 26px;
+  }
+
+  .pane-content p {
+    font-size: 15px;
+    line-height: normal !important;
+  }
+
+  .content-button {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  #info .triple-pane {
+    width: 1300px;
+    height: calc(1300px * (9 / 16));
+  }
+
+  .pane-content {
+    padding: 30px;
+  }
+
+  .pane-content h1 {
+    font-size: 32px;
+  }
+
+  .pane-content p {
+    font-size: 17px;
+    line-height: normal !important;
+  }
+
+  .content-button {
+    font-size: 20px;
+  }
+
+  #info {
+                scale: 120%;
+  }
+}
