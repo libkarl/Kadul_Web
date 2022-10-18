@@ -10,7 +10,7 @@ import Logo2 from "../../assets/kadul-logo.jpg"
 const Cards = () => {
   return (
     <section className="container w-screen mt-8 h-full sm:h-screen">
-      <div className=" w-screen flex flex-wrap content-center justify-center mx-auto  py-5 md:px-6 gap-6">
+      <div className=" w-full flex flex-wrap content-center justify-center mx-auto  py-5 md:px-6 gap-6">
       <Link to="kadul">
           <Tilt>
             <article className="bg-white overflow-hidden rounded-lg shadow-lg w-72 m-4 ">
