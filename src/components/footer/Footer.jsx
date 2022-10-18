@@ -7,22 +7,22 @@ class Footer extends Component {
         return(
             <footer class="p-2 bg-white rounded-lg shadow md:px-6 md:py-8">
                 <div class="sm:flex sm:items-center sm:justify-between">
-                    <a href="https://www.kadul.com/index.php/en/home-2/" class="flex items-center mb-4 sm:mb-0" target="_blank">
+                    <a href="https://www.kadul.com/index.php/en/home-2/" class="flex items-center mb-4 sm:mb-0" target="_blank" rel="noreferrer">
                         <img src={CompanyLogo} class="mr-3 h-12 " alt="Company Logo" />
                         
                     </a>
                     <ul class="flex flex-wrap items-center mb-6 text-sm text-gray-500 sm:mb-0 dark:text-gray-400">
                         <li>
-                            <a href="#" class="mr-4 hover:underline md:mr-6 ">About</a>
+                            <a href="/" class="mr-4 hover:underline md:mr-6 ">About</a>
                         </li>
                         <li>
-                            <a href="#" class="mr-4 hover:underline md:mr-6">Privacy Policy</a>
+                            <a href="/" class="mr-4 hover:underline md:mr-6">Privacy Policy</a>
                         </li>
                         <li>
-                            <a href="#" class="mr-4 hover:underline md:mr-6 ">Licensing</a>
+                            <a href="/" class="mr-4 hover:underline md:mr-6 ">Licensing</a>
                         </li>
                         <li>
-                            <a href="#" class="hover:underline">Contact</a>
+                            <a href="/" class="hover:underline">Contact</a>
                         </li>
                     </ul>
                 </div>

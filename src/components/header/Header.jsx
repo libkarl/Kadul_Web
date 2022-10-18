@@ -11,7 +11,7 @@ class Header extends Component {
                    
                         <div class=" ml-12 flex items-center justify-between h-auto header">
                             <div class="flex items-center">
-                                <a class="flex-shrink-0 " href="https://react-icons.github.io/react-icons/search?q=build" target="_blank" >
+                                <a class="flex-shrink-0 " href="https://react-icons.github.io/react-icons/search?q=build" target="_blank" without rel="noreferrer" >
                                     <div class="">
                                        
                                     <BiBuildingHouse size={60}/>
