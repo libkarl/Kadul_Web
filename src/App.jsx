@@ -3,7 +3,7 @@ import "./App.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Main from "./pages/Main/Main";
 import Kadul from "./pages/Kadul/Kadul";
-import { KadulProject1 } from "./components/projects/kadul1";
+import { KadulProject1 } from "./components/projects/Kadul1";
 
 function App() {
   return (
