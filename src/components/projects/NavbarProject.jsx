@@ -11,7 +11,7 @@ const Logo = styled.img`
 const BackButton = styled(Link)`
   margin-top: 2.6rem;
   scale: 0.7;
-  transform: translate(-0%, -50%) @media (max-width: 450px) {
+  @media (max-width: 450px) {
     scale: 0.6;
     margin-top: 2.4rem;
   }
