@@ -1,0 +1,122 @@
+.header {
+  display: flex;
+}
+
+.typewriter h1 {
+  color: rgb(8, 7, 7);
+  font-family: monospace;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: 0.15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: 0.15em; /* Adjust as needed */
+  animation: typing 3.5s steps(30, end), blink-caret 0.5s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: rgb(3, 2, 0);
+  }
+}
+
+.anime_bt {
+  transform: translate(-35%, -50%);
+  width: 180px;
+  height: 50px;
+  background: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 50px;
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  font-family: verdana;
+  letter-spacing: 4px;
+
+  /*    border-radius: 20px; */
+}
+
+@media (max-width: 600px) {
+  .anime_bt {
+    width: 140px;
+    height: 45px;
+    font-size: 15px;
+  }
+}
+
+.anime_bt:before,
+.anime_bt:after,
+.ef:before,
+.ef:after {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background: rgb(0, 0, 0);
+  transition: 1s;
+  mix-blend-mode: hue;
+}
+
+.anime_bt:before {
+  top: -2px;
+  left: -2px;
+}
+.anime_bt:after {
+  top: -2px;
+  right: -2px;
+}
+.ef:before {
+  bottom: -2px;
+  left: -2px;
+}
+.ef:after {
+  bottom: -2px;
+  right: -2px;
+}
+
+.anime_bt:hover:before,
+.anime_bt:hover:after,
+.anime_bt:hover span:before,
+.anime_bt:hover span:after {
+  width: calc(180px / 2);
+  height: calc(50px / 2);
+}
+
+/* ============== Meadia Queries ( tablety ) ========= */
+@media screen and (max-width: 1024px) {
+  .header {
+    flex-direction: row;
+    gap: 2.5rem;
+  }
+
+  .typewriter h1 {
+    font-size: large;
+  }
+}
+
+/* ============== Meadia Queries ( mobil ) ========= */
+@media screen and (max-width: 600px) {
+  .header {
+    flex-direction: row;
+    gap: 2.5rem;
+  }
+
+  .typewriter h1 {
+    font-size: large;
+  }
+}

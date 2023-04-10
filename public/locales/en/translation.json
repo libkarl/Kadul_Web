@@ -1,0 +1,99 @@
+{
+  "header": {
+    "moto": "The perfect solution in modern construction.",
+    "button": "Back"
+  },
+  "about": {
+    "experiences": {
+      "title": "Experience",
+      "info": "3+ Years in the field"
+    },
+    "clients": {
+      "title": "Number of clients",
+      "info": "50+ Worldwide"
+    },
+    "projects": {
+      "title": "Projects",
+      "info": "80+"
+    },
+    "title": "Saving and Safety",
+    "text": {
+      "part1": "Modern construction means unusual challenges. Environmental care, highest possible quality, processing and supervision of timely investment are the everyday work of entrepreneurs in the field. Kadul meets these requirements and offers an improved solution for the construction industry. It saves time and money and is also environmentally friendly.",
+      "part2": "Offered products that meet the highest quality parameters provide higher safety, reduce operating costs and material consumption. Individual approach to the needs of our clients allows us to offer tailor-made solutions, also in the area of investment services and construction consulting."
+    },
+    "button": "Contact us"
+  },
+  "technology": {
+    "title": "Evo Module Technology",
+    "evoInfo": {
+      "part1": "EVOMODULE is a prefabricated construction system that utilizes modern technology. The main goal of the system is to improve efficiency and durability of buildings under construction. Thanks to EVOMODULE, it is able to provide an energy-saving house construction for a very affordable price with shortened investment time. The system allows lower construction costs while maintaining the highest quality parameters.",
+      "part2": "The system allows for lower construction costs while maintaining the highest quality. More information can be found in the Download tab and on the website:"
+    },
+    "elastolith": "Elastolith are mineral (brick) tiles used as facade or interior cladding. Thanks to its flexible structure and easy installation, it proves useful wherever speed and lightness of material are crucial. Elastolit consists solely of natural materials, including 92% quartz sand and 6% high-quality resins. Due to the combination of high-quality materials and specialized manufacturing processes, Elastolith Veneer is an exceptionally strong product. The tiles are frost-resistant and do not absorb water. Resistance to UV radiation allows the surface to maintain its color for many years.",
+    "aquafire": "AquaFire are highly durable, fire-resistant insulation boards. They do not decay or deform. They are excellent fire protection and do not allow water to pass through. The board is made of lightweight material and its installation is not demanding. It can be cut like regular plasterboard.",
+    "3thermo": {
+      "part1": "3THERMO underfloor heating systems are a modern product in the field of construction that reduces heating expenses by up to 40% and improves thermal comfort of homes. Thanks to installation under the wall plaster, 3THERMO does not limit the space of the room. It is an ideal solution where the highest level of hygiene and health care is required - a radiator hidden under the plaster does not create hard-to-clean areas. 3THERMO prevents the circulation of dust and allergens, which applies to traditional heating systems and floor heating.",
+      "part2": "In addition to evenly distributing heat on the wall, 3THERMO radiators also prevent moisture accumulation. The 3THERMO system is completely safe - it does not contain air or damage the plaster. It is compatible with any available heating source."
+    },
+    "videoTitle": "Kadul company technology presentation"
+  },
+  "testimonials": {
+    "title": "Clients reviews",
+    "review1": {
+      "name": "Anna Garcia",
+      "text": "Always an awesome experience working with this developer understands our projects and is able to get them done in a timely manner and on budget thank you so much for all your hard work we look forward to continually working together."
+    },
+    "review2": {
+      "name": "James Perez",
+      "text": "Perfect service! Solved difficult technical issues. Communicated well on a regular basis and presented partial / final results in a clean and professional manner. Due to the very good result, I am happy to continue the project with the freelancer."
+    },
+    "review3": {
+      "name": "Hanry Robinson",
+      "text": "I am so pleased with the work. Communication was great and everything expected got delivered, even before the deadline! Recommend very much."
+    },
+    "review4": {
+      "name": "Tina Snow",
+      "text": "Excelent work and super fast, it has been an amazing experience 10/10 I will be back to do more work!"
+    }
+  },
+  "contact": {
+    "title": "Contact Form",
+    "text": "Contact us at contact@kadul.com or leave a message here:",
+    "nameField": "Name",
+    "textField": "Message Text",
+    "emailField": "Email",
+    "button": "Send"
+  },
+  "services": {
+    "title": "Services",
+    "text": "Apart from innovative products, we also offer investment service and consulting. Thanks to the experience gained in the international environment, we can propose a wide range of cooperation:",
+    "passiveHouse": {
+      "title": "Passive house designing",
+      "text": "Passive House Designing creates energy-efficient homes using sustainable building techniques. Save money and reduce your carbon footprint."
+    },
+    "fastBuild": {
+      "title": "Build Fast building method",
+      "text": "Build Fast is a quick and efficient building method that combines prefabrication with on-site assembly. Save time and money without compromising quality."
+    },
+    "performanceRation": {
+      "title": "Price–performance ratio",
+      "text": "Get the best value for your money with our Price–Performance Ratio service. We identify cost-effective solutions that deliver high-quality results."
+    },
+    "heatingSystem": {
+      "title": "Heating systems",
+      "text": "Ensure reliable heating with our eco-friendly solutions. We will help you to chose right heating system and reduce your energy bills. Contact us for optimal performance."
+    },
+    "investMentorship": {
+      "title": "Mentorship during and before starting a building investment",
+      "text": "Get expert guidance with our Mentorship service for building investments. Our team will provide support and advice before and during construction to ensure a successful project."
+    },
+    "internationalInvest": {
+      "title": "Planning of the international investment processes",
+      "text": "Our International Investment Planning service helps you navigate complex global investment processes. We offer expert advice on regulations, taxes, and legal requirements to ensure a successful international investment."
+    }
+  },
+  "gallery": {
+    "title": "Project Gallery",
+    "downloadText": "For more information, check our brochure:"
+  }
+}

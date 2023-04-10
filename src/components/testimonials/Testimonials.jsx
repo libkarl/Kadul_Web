@@ -6,12 +6,13 @@ import AVTR3 from "../../assets/avatar3.jpg";
 import AVTR4 from "../../assets/avatar4.jpg";
 
 // import Swiper core and required modules
-import { Pagination } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
-
+import { Navigation, Pagination } from "swiper";
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
+import "swiper/css/navigation";
+import { useTranslation } from "react-i18next";
 
 const data = [
   {
@@ -41,26 +42,48 @@ const data = [
 ];
 
 const Testimonials = () => {
+  const { t } = useTranslation();
+  const data = [
+    {
+      avatar: AVTR1,
+      name: t("testimonials.review1.name"),
+      review: t("testimonials.review1.text"),
+    },
+    {
+      avatar: AVTR2,
+      name: t("testimonials.review2.name"),
+      review: t("testimonials.review2.text"),
+    },
+    {
+      avatar: AVTR3,
+      name: t("testimonials.review3.name"),
+      review: t("testimonials.review3.text"),
+    },
+    {
+      avatar: AVTR4,
+      name: t("testimonials.review4.name"),
+      review: t("testimonials.review4.text"),
+    },
+  ];
   return (
     <section id="testimonials" class="mb-20 drop-shadow-xl">
       <h5 class="text-center text-3xl  text-red-600 mb-4">
-        Review from clients
+        {t("testimonials.title")}
       </h5>
       <div class="drop-shadow-xl">
         <Swiper
           className="container testimonials__container "
           // install Swiper modules
-          modules={[Pagination]}
+          modules={[Navigation, Pagination]}
+          navigation
+          scrollbar={{ draggable: true }}
           spaceBetween={40}
           slidesPerView={1}
           pagination={{ clickable: true }}
         >
           {data.map(({ avatar, name, review }, index) => {
             return (
-              <SwiperSlide
-                key={index}
-                className="testimonial swiper-button-black"
-              >
+              <SwiperSlide key={index} className="testimonial">
                 <div className="client__avatar">
                   <img src={avatar} alt="client avatar" />
                 </div>

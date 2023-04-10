@@ -1,0 +1,99 @@
+{
+  "header": {
+    "moto": "Zdokonalené řešení v moderním stavebnictví.",
+    "button": "Zpět"
+  },
+  "about": {
+    "experiences": {
+      "title": "Zkušeností",
+      "info": "3+ Let v oboru"
+    },
+    "clients": {
+      "title": "Počet klientů",
+      "info": "50 + Celosvětově"
+    },
+    "projects": {
+      "title": "Projektů",
+      "info": "80+"
+    },
+    "title": "Úspora a bezpečnost",
+    "text": {
+      "part1": "Moderní stavebnictví znamená neobvyklé výzvy. Péče o životní prostředí, nejvyšší možná kvalita, zpracování a dohled nad včasnou realizací investic apod., jsou každodenní práci podnikatelů v oboru. Kadul tyto požadavky splňuje a nabízí zdokonalené řešení pro stavebnictví. Šetří čas i peníze a jsou také šetrné k životnímu prostředí.",
+      "part2": "Nabízené výrobky splňující nejvyšší parametry kvality, zajišťují vyšší bezpečnost, snižují provozní náklady a spotřebu materiálu. Individuální přístup k potřebám našich klientů nám umožňuje nabídnout řešení šitá na míru, také v oblasti investičních služeb a stavebního poradenství."
+    },
+    "button": "Kontaktujte nás"
+  },
+  "technology": {
+    "title": "Technologie Evo Module",
+    "evoInfo": {
+      "part1": "EVOMODULE je prefabrikovaný konstrukční systém, který využívá moderní technologie. Hlavním cílem systému je zlepšit účinnost a trvanlivost rozestavěných budov. Díky EVOMODULE dokáže zpřístupnit energeticky úspornou stavbu domu za velmi dostupnou cenu se zkrácenou investiční dobou. Systém umožňuje nižší stavební náklady při zachování nejvyšší kvality parametrů.",
+      "part2": "Systém umožňuje nižší stavební náklady při zachování nejvyšší kvality. Více informací v záložce Ke stažení a na webu:"
+    },
+    "elastolith": "Elastolith jsou minerální (cihlové) dlaždice, které slouží jako fasáda nebo se dá použít i jako vnitřní úprava. Díky své flexibilní struktuře a snadné instalaci se osvědčí všude tam, kde je zásadní rychlost a lehkost materiálu. Elastolit se skládá pouze z přírodních surovin, včetně 92% křemenného písku a 6% vysoce kvalitních pryskyřic. Díky kombinaci vysoce kvalitních surovin a specializovaných výrobních postupů je Elastolith Veneer mimořádně pevným výrobkem. Dlaždice jsou mrazuvzdorné a neabsorbují vodu. Odolnost proti UV záření umožňuje povrchu zachovat si barvu po mnoho let.",
+    "aquafire": "AquaFire jsou vysoce odolné, nehořlavé izolační desky. Nerozkládají se, nedeformují se. Jsou vynikající protipožární ochranou, nepropouštějí vodu. Deska je vyrobena z lehkého materiálu a její instalace není náročná. Lze řezat jako běžný sádrokarton.",
+    "3thermo": {
+      "part1": "Podomítková topná tělesa 3THERMO jsou moderním výrobkem v rámci stavebnictví, který snižuje náklady na vytápění až o 40% a zlepšuje tepelný komfort domu. Díky instalaci pod omítku na zeď, 3THERMO neomezuje prostor místnosti. Je to ideální řešení tam, kde je důležitá nejvyšší úroveň hygieny a péče o zdraví - radiátor ukrytý pod omítkou nevytváří těžko čistitelná místa. 3THERMO zabraňuje cirkulaci prachu a alergenů, což platí pro tradiční topné systémy a podlahové vytápění.",
+      "part2": "Radiátor 3THERMO díky rovnoměrnému rozložení tepla na zeď navíc brání hromadění vlhkosti. Systém 3THERMO je zcela bezpečný - neobsahuje vzduch ani nepoškozuje omítku. Je kompatibilní s jakýmkoli dostupným zdrojem vytápění."
+    },
+    "videoTitle": "Prezentace technologie firmy Kadul"
+  },
+  "testimonials": {
+    "title": "Recenze klientů",
+    "review1": {
+      "name": "Anna Garcia",
+      "text": "Vždy úžasná zkušenost pracovat s tímto vývojářem. Rozumí našim projektům a dokáže je vykonat včas a v rámci rozpočtu. Děkuji Vám moc za vaši tvrdou práci a těšíme se na další spolupráci."
+    },
+    "review2": {
+      "name": "James Perez",
+      "text": "Dokonalá služba! Vyřešil obtížné technické problémy. Pravidelně komunikoval a prezentoval čisté a profesionální výsledky. Díky velmi dobrému výsledku jsem šťastný pokračovat v projektu s freelancerem."
+    },
+    "review3": {
+      "name": "Hanry Robinson",
+      "text": "Jsem tak spokojen s prací. Komunikace byla skvělá a bylo doručeno vše co jsme očekávali, dokonce před deadlinem! Velmi doporučuji."
+    },
+    "review4": {
+      "name": "Tina Snow",
+      "text": "Vynikající práce a super rychlé. Byla to úžasná zkušenost 10/10 Budu se vrátit a dělat více práce!"
+    }
+  },
+  "contact": {
+    "title": "Kontaktní formulář",
+    "text": "Kontaktujte nás na adrese contact@kadul.com nebo zanechte zprávu zde:",
+    "nameField": "Jméno",
+    "textField": "Text zprávy",
+    "emailField": "Email",
+    "button": "Odeslat"
+  },
+  "services": {
+    "title": "Služby",
+    "text": "Kromě inovativních produktů nabízíme také investiční služby a poradenství. Díky zkušenostem získaným v mezinárodním prostředí můžeme nabídnout širokou škálu spolupráce:",
+    "passiveHouse": {
+      "title": "Návrh pasivních domů",
+      "text": "Při návrhu našich domů využíváme udržitelné stavební techniky a vytváříme energeticky úsporné domy, které šetří peníze a snižují uhlíkovou stopu."
+    },
+    "fastBuild": {
+      "title": "Rychlé stavební metody",
+      "text": "Námi poskytované stavební metody kombinují technologii prefabrikace s montáží na místě. Díky tomu lze ušetřit čas i peníze bez kompromisu na kvalitě."
+    },
+    "performanceRatio": {
+      "title": "Poměr cena-výkon",
+      "text": "Získejte nejlepší hodnotu za své peníze s naší službou Poměr Cena–Výkon. Identifikujeme pro Vás nákladově efektivní řešení, která poskytují nejlepší výsledky v poměru k vaší investici."
+    },
+    "heatingSystem": {
+      "title": "Vytápění",
+      "text": "Zajistěte spolehlivé vytápění s našimi ekologickými řešeními. Pomůžeme Vám vybrat správný způsob vytápění a snížit energetické náklady. Kontaktujte nás pro návrh optimálního řešení."
+    },
+    "investMentorship": {
+      "title": "Poradenství pro investice ve stavebnictví",
+      "text": "Získejte odborné poradenství při vaší stavebních investici. Náš tým poskytne podporu a poradenství před a během stavby, aby byl projekt bez kompromisů úspěšný."
+    },
+    "internationalInvest": {
+      "title": "Plánování mezinárodních investičních procesů",
+      "text": "Nabízíme pomoc při realizaci mezinárodních investicí, která vám pomůže při orientace v komplikovaném globálním prostředí. Naše odborné poradenství zahrnující předpisy, daně i právní požadavky."
+    }
+  },
+  "gallery": {
+    "title": "Galerie projektů",
+    "downloadText": "Více informací můžete malézt v našem katalogu:"
+  }
+}

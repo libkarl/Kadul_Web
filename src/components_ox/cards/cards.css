@@ -1,0 +1,102 @@
+.path {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  animation: dash 3s linear forwards;
+  animation-timing-function: ease;
+}
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+.house{
+  /*animation: <animation-name> <animation-duration> <animation-iteration-count>*/
+  animation: animateHouse 1.2s;
+  animation-delay: 0.85s;
+  animation-timing-function: ease;
+}
+
+@keyframes animateHouse {
+  /*scale down and scale up faster in irregular intervals to get the throbbing effect*/
+  0% {
+    transform: scale(0.8);
+  }
+  5% {
+    transform: scale(0.9);
+  }
+  10% {
+    transform: scale(0.8);
+  }
+  15% {
+    transform:scale(1);
+  }
+  50% {
+    transform: scale(0.8);
+  }
+  100% {
+    transform: scale(0.8);
+  }
+}
+
+.anime_bt_ln
+{
+    
+    transform: translate(-25%, -50%);
+    width: 100px;
+    height: 32px;
+    background: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    line-height: 32px;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    letter-spacing: 4px;
+   
+/*    border-radius: 20px; */
+}
+
+.anime_bt_ln:before,
+.anime_bt_ln:after,
+.ef:before,
+.ef:after
+{
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: rgb(0, 0, 0);
+    transition: 1s;
+    mix-blend-mode: hue;
+}
+
+.anime_bt_ln:before
+{
+    top: -2px;
+    left: -2px
+}
+.anime_bt_ln:after
+{
+    top: -2px;
+    right: -2px;
+}
+.ef:before
+{
+    bottom: -2px;
+    left: -2px
+}
+.ef:after
+{
+    bottom: -2px;
+    right: -2px
+}
+
+.anime_bt_ln:hover:before,
+.anime_bt_ln:hover:after,
+.anime_bt_ln:hover span:before,
+.anime_bt_ln:hover span:after
+{
+    width: calc( 180px/2 );
+    height: calc( 50px/2 )
+}
